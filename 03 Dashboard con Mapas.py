@@ -16,7 +16,7 @@ import time
 #!killall ngrok || true # Use '|| true' to prevent script from failing if ngrok isn't running
 
 # Kill any existing ngrok tunnels via pyngrok API
-ngrok.kill()
+#ngrok.kill()
 
 # Give a small buffer time after killing processes before starting new ones
 time.sleep(2)
