@@ -27,7 +27,7 @@ time.sleep(2)
 # Wait a bit for Streamlit to start up
 time.sleep(5) # A longer delay might be necessary for Streamlit to fully initialize
 
-public_url = ngrok.connect(8501)
-print(f"Public URL: {public_url}")
+#public_url = ngrok.connect(8501)
+#print(f"Public URL: {public_url}")
 
 #!kill -9 $(lsof -t -i:8501)
