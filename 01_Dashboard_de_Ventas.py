@@ -1,4 +1,4 @@
-#!pip install streamlit pyngrok
+!pip install streamlit pyngrok
 
 from pyngrok import ngrok
 
@@ -33,7 +33,7 @@ from pyngrok import ngrok
 import time
 
 # Kill any existing ngrok processes aggressively
-#!killall ngrok || true # Use '|| true' to prevent script from failing if ngrok isn't running
+!killall ngrok || true # Use '|| true' to prevent script from failing if ngrok isn't running
 
 # Kill any existing ngrok tunnels via pyngrok API
 ngrok.kill()
@@ -42,7 +42,7 @@ ngrok.kill()
 time.sleep(2)
 
 # Start Streamlit app in the background
-#!streamlit run app.py &>/dev/null&
+!streamlit run app.py &>/dev/null&
 
 # Wait a bit for Streamlit to start up
 time.sleep(5) # A longer delay might be necessary for Streamlit to fully initialize
