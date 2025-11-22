@@ -1,4 +1,4 @@
-pip install streamlit pyngrok
+#!pip install streamlit pyngrok
 
 from pyngrok import ngrok
 ngrok.set_auth_token("35qJAGN9pDjSLGWbj60RqG13IlY_6mpxt5Zix41yDvGyqJ5bX")
