@@ -9,7 +9,7 @@ import numpy as np
 
 st.title("🗺️ Dashboard con Mapas")
 
-from pyngrok import ngrok
+#from pyngrok import ngrok
 import time
 
 # Kill any existing ngrok processes aggressively
