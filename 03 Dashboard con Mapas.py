@@ -22,7 +22,7 @@ ngrok.kill()
 time.sleep(2)
 
 # Start Streamlit app in the background
-!streamlit run app.py &>/dev/null&
+#!streamlit run app.py &>/dev/null&
 
 # Wait a bit for Streamlit to start up
 time.sleep(5) # A longer delay might be necessary for Streamlit to fully initialize
