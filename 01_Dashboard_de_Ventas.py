@@ -33,7 +33,7 @@ from pyngrok import ngrok
 import time
 
 # Kill any existing ngrok processes aggressively
-!killall ngrok || true # Use '|| true' to prevent script from failing if ngrok isn't running
+killall ngrok || true # Use '|| true' to prevent script from failing if ngrok isn't running
 
 # Kill any existing ngrok tunnels via pyngrok API
 ngrok.kill()
